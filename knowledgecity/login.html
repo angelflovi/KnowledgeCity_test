@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>LMS</title>
+    
+    <!-- Core Dependencies -->
+    <link rel="stylesheet" href="app/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="app/css/login.css"/>
+</head>
+<body>
+    <div class="body-content">
+        <div class="container">
+         <div class="logo"><object data="assets/Logo.svg" > </object></div>
+        <div class="logo">Welcome to the Learning Management System</div>
+          <div class="text_lower">Please log in to continue</div>
+          <div class="text_lower">&nbsp;</div>
+           <div class="logo"></div>
+            <div class="login-form">
+                <form action="javascript:void(0);">
+                    <div class="form-item">
+                        <!-- <label for="userName">Username:</label> -->
+                        <input type="text" name="user" id="user" placeholder="Username" autocomplete="off">
+                  	</div>
+                    <div class="form-item">
+                        <!-- <label for="passWord">Password:</label> -->
+                      <input type="password" name="password" id="password" placeholder="Password" autocomplete="off">                        
+                    </div>
+                  <div class="remember-box">
+                  <input type="checkbox" name="remember" id="remember">Remember me</div>
+                    <div class="form-btns">
+					<div class="form-btns"> </div>
+                        <button onClick="validate();">Log in</button>
+                  </div>
+              </form>
+                <p>&nbsp;</p>
+          </div>
+        </div>
+    </div>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="app/js/script.js"></script>
+</html>

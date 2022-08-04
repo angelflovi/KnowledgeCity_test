@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>LMS</title>
+
+<!-- Core Dependencies -->
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.11.3/css/jquery.dataTables.min.css">
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.1/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="app/css/table.css"/>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdn.datatables.net/1.11.3/js/jquery.dataTables.min.js"></script>
+<script type="text/javascript" src="app/js/script.js" ></script>
+</head>
+<body>
+<table width="100%" border="0" align="center" cellpadding="0" cellspacing="0" class="table">
+<tr><td><div class="Title">User List</div></td></tr>
+<tr><td><div class="container" id="myCont"></div></td></tr>
+<tr><td><div class="img"><img src="assets/log_out.png" style="cursor:pointer;" onclick="logout();" /></div></td></tr>
+</table>
+</body>
+<script>
+session();
+load_table();
+</script>
+</html>
